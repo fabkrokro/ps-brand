@@ -13,7 +13,8 @@
         yellow: "#FFE63B",
         green: "#00E6C3",
         darkGray: "#B4B4B4",
-        black: "#000000"
+        black: "#000000",
+        uniperBlue: "#007b80"
       }
     },
   },

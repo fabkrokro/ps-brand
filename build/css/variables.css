@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 31 May 2023 11:59:41 GMT
+ * Generated on Wed, 31 May 2023 12:13:01 GMT
  */
 
 :root {
@@ -12,4 +12,5 @@
   --colors-green: #00E6C3;
   --colors-dark-gray: #B4B4B4;
   --colors-black: #000000;
+  --colors-uniper-blue: #007b80;
 }
