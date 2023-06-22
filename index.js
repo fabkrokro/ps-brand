@@ -36,9 +36,10 @@ const StyleDictionary = StyleDictionaryModule.extend(config);
 StyleDictionary.buildAllPlatforms();
 
 // Modify TW config from CJS to ESM export
-const rewriteFile = `${buildPathTW}tailwind.config.js`;
-const configTWFile = await readFile(rewriteFile, "utf-8");
+const readTWConfig = `${buildPathTW}tailwind.config.js`;
+const writeTWConfig = readTWConfig.replace(".js", ".mjs");
+const configTWFile = await readFile(readTWConfig, "utf-8");
 await writeFile(
-  rewriteFile,
+  writeTWConfig,
   configTWFile.replace("module.exports = ", "export default ")
 );

@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
- export default {
+ module.exports = {
   mode: "jit",
   content: ["./src/**/*.{ts,tsx}"],
   darkMode: "class",
@@ -14,7 +14,8 @@
         green: "#00E6C3",
         darkGray: "#B4B4B4",
         black: "#000000",
-        uniperBlue: "#007b80"
+        uniperBlue: "#007b80",
+        uniperRed: "#7b0000"
       }
     },
   },
